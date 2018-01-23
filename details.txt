@@ -1,0 +1,19 @@
+git init
+git status
+ls
+git add
+git status
+git commit -m "initial commit"
+git remote add origin https://github.com/Rupali-Bajwa/Python.git
+
+#to copy else's repositry
+git  init
+git clone (paste the path)
+
+Q) what  do you mean by platform,enviornment in programming language
+read ide complete https://wiki.python.org/moin/IntegratedDevelopmentEnvironments
+
+Q) Sandbox enviornment
+Q) what is the operator preceedence in python
+
+! 3.1.2 string topic and make a string.py
