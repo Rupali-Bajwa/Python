@@ -103,4 +103,46 @@ Traceback (most recent call last):
 TypeError: 'type' object is not subscriptable
 >>> list(range(10))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list=[1,3,4,5,6,3,3,2,4,90]
+>>> if list[0]
+SyntaxError: invalid syntax
+>>> list=[0,3,4,5,6,3,3,2,4,90]
+>>> range(10)
+range(0, 10)
+>>> for i in range(10):
+	print(i)
+
+	
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> name="My name is Rupali"
+>>> for i in name:
+	print (i)
+
+	
+M
+y
+ 
+n
+a
+m
+e
+ 
+i
+s
+ 
+R
+u
+p
+a
+l
+i
 >>> 
