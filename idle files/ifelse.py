@@ -145,4 +145,53 @@ p
 a
 l
 i
+>>> for n in range(10):
+	if n==6:
+		break
+	print(n, end-',')
+
+	
+Traceback (most recent call last):
+  File "<pyshell#58>", line 4, in <module>
+    print(n, end-',')
+NameError: name 'end' is not defined
+>>> for n in range(10):
+	if n==6:
+		break
+	print(n,end-1)
+
+	
+Traceback (most recent call last):
+  File "<pyshell#64>", line 4, in <module>
+    print(n,end-1)
+NameError: name 'end' is not defined
+>>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+>>> fruits.count('banana')
+2
+>>> fruits.index('apple')
+1
+>>> fruits.index('banana',3)
+3
+>>> fruits.index('banana',4)
+6
+>>> fruits.reverse()
+>>> friuts
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    friuts
+NameError: name 'friuts' is not defined
+>>> fruits
+['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
+>>> fruits.append('grapes')
+>>> fruits
+['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grapes']
+>>> fruits.sort
+<built-in method sort of list object at 0x0227A850>
+>>> fruits.sort()
+>>> fruits
+['apple', 'apple', 'banana', 'banana', 'grapes', 'kiwi', 'orange', 'pear']
+>>> fruits.pop()
+'pear'
+>>> fruits
+['apple', 'apple', 'banana', 'banana', 'grapes', 'kiwi', 'orange']
 >>> 

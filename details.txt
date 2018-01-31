@@ -21,6 +21,7 @@ Q) What is difference between indexing and slicing
 ! Google summer of code 2018 : 
 
 !https://docs.python.org/3/tutorial/datastructures.html
+!course for introduction for data science for python
 
 ==================list=============
 list may contain hetrogenous data,it is versatile, can create empty list
