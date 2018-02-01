@@ -25,3 +25,12 @@ Q) What is difference between indexing and slicing
 
 ==================list=============
 list may contain hetrogenous data,it is versatile, can create empty list
+
+pallendrome
+even odd
+fabonacci
+pribnt 10 numbers
+multiplication table
+calculator
+
+FDD(functional decomposition diagram)
